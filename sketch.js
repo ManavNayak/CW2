@@ -21,7 +21,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(1920, 1080);
+  createCanvas(1930, 1090);
 
   brand = createSprite(960 , 535, 100, 100);
   brand.addImage("brand", brandImg);
