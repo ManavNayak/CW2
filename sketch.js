@@ -169,12 +169,21 @@ function homeScreen(){
 
     }
 
-    rm.mousePressed(()=>{
+   rm.mousePressed(()=>{
 
       gameState = "RM";
       rmScreen();
 
       bgm.play();
+
+    });
+    
+    brand.mousePressed(()=>{
+
+    gameState = "HOME";
+
+
+
 
     });
 
